@@ -4,12 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx tsx src/index.ts",
-    "dev": "npx tsx src/index.ts",
-    "prisma:generate": "npx prisma generate",
-    "prisma:migrate": "npx prisma migrate dev",
-    "setup": "npm install && npm run prisma:generate"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -17,13 +12,11 @@
   "type": "commonjs",
   "dependencies": {
     "@prisma/client": "^6.11.0",
-    "cookie-parser": "^1.4.7",
+    "axios": "^1.10.0",
     "cors": "^2.8.5",
     "dotenv": "^17.0.1",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
-    "passport": "^0.7.0",
-    "passport-google-oauth20": "^2.0.0",
     "prisma": "^6.11.0"
   }
 }
